@@ -53,3 +53,7 @@ section.animais nav.animais-img ul {
 section.animais nav.animais-img ul li img {
     width: 270px;
 }
+
+section {
+    background: gray;
+}
