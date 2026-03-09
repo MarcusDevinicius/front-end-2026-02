@@ -8,9 +8,16 @@ img {
     width: 100px;
 }
 
+h1 {
+    font-size: 85px;
+
+}
+
 header {
     background: rgb(173, 206, 97);
 }
+
+
 
 header ul {
     list-style: none;
@@ -31,11 +38,18 @@ section.animais {
     background: lightblue;
 }
 
+
 section.animais h1 {
     font-size: 85px;
     letter-spacing: 3px;
     background: green;
     max-width: 650px;
+}
+
+section.animais div{
+    background: lightblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 section.animais nav.animais-img {
@@ -54,6 +68,29 @@ section.animais nav.animais-img ul li img {
     width: 270px;
 }
 
-section {
-    background: gray;
+section.animais  article.info-animal {
+    
+    display: none;
+}
+
+section.animais  article.raposa {
+    display: block;
+}
+
+section.faq  {
+    background: rgb(187, 181, 181);
+}
+
+section.faq dl {
+    background: lightgreen;
+    max-width: 770px;
+}
+
+section.faq dl > dt {
+    background: yellow;
+    font-size: 20px;
+}
+
+section.faq dl > dd {
+    font-size: 18px;
 }
